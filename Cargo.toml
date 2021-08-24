@@ -1,0 +1,16 @@
+[package]
+name = "warping-plus"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+const_format = "0.2.18"
+fake = "2.4.1"
+reqwest = { version = "0.11", features = ["json"] }
+serde = "1.0.97"
+serde_derive = "1.0"
+tokio = { version = "1", features = ["full"] }
+toml = "0.5.8"
